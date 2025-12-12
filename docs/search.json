@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "County Health Open Source Project",
+    "section": "",
+    "text": "Welcome to the County Health Open Source Project, a community-driven effort to preserve, update, and extend the County Health Rankings & Roadmaps data after the loss of program funding.\nOur mission is to:"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "County Health Open Source Project",
+    "section": "Resources",
+    "text": "Resources\n\nHow to Contribute:\nGuidance for setting up your environment, submitting PRs, and joining discussions.\n→ https://your-contribute-guide-url\nInteractive Shiny App:\nExplore key indicators with an easy-to-use visual interface.\n→ https://your-shiny-app-url\nData Calculations (GitHub Repo):\nScripts and workflows that compute the indicators used in the Shiny app.\n→ https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations\nHistorical Data Archive (Zenodo):\nA permanent archive of 15 years of data releases.\n→ https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest\nArchived Documentation Site:\nHistorical documentation, methods, and notes.\n→ https://your-archived-html-url\n\n\nIf you’d like to help, please check out the How to Contribute guide or open an issue in our GitHub repository.\nLet’s keep this important public data alive together!"
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "How to Contribute",
+    "section": "",
+    "text": "Thank you for your interest in contributing to the County Health Open Source Project!\n\n\n\nAdd or update data calculations\n\nImprove documentation\n\nReport issues or bugs\n\nBuild educational or visualization tools\n\nUse our historical data archive to advocate for health equity\n\n\n\n\n\nFork the GitHub repository\n\nCreate a feature branch\n\nRun the calculation scripts locally\n\nSubmit a pull request\n\n\n\n\nOpen an issue on GitHub or join the discussion forum."
+  },
+  {
+    "objectID": "contribute.html#ways-to-contribute",
+    "href": "contribute.html#ways-to-contribute",
+    "title": "How to Contribute",
+    "section": "",
+    "text": "Add or update data calculations\n\nImprove documentation\n\nReport issues or bugs\n\nBuild educational or visualization tools\n\nUse our historical data archive to advocate for health equity"
+  },
+  {
+    "objectID": "contribute.html#getting-started",
+    "href": "contribute.html#getting-started",
+    "title": "How to Contribute",
+    "section": "",
+    "text": "Fork the GitHub repository\n\nCreate a feature branch\n\nRun the calculation scripts locally\n\nSubmit a pull request"
+  },
+  {
+    "objectID": "contribute.html#questions",
+    "href": "contribute.html#questions",
+    "title": "How to Contribute",
+    "section": "",
+    "text": "Open an issue on GitHub or join the discussion forum."
+  }
+]
