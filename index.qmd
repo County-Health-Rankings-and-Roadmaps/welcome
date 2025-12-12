@@ -1,0 +1,39 @@
+---
+title: "County Health Open Source Project"
+---
+
+Welcome to the **County Health Open Source Project**, a community-driven effort to preserve, update, and extend the **County Health Rankings & Roadmaps** data after the loss of program funding.
+
+Our mission is to:
+
+- Keep 15+ years of county health data accessible  
+- Enable researchers, analysts, and community members to **contribute new calculations**
+- Support transparent, open methods
+- Provide user-friendly ways to explore the data
+
+## Resources
+
+- **How to Contribute:**  
+  Guidance for setting up your environment, submitting PRs, and joining discussions.  
+  → <https://your-contribute-guide-url>
+
+- **Interactive Shiny App:**  
+  Explore key indicators with an easy-to-use visual interface.  
+  → <https://your-shiny-app-url>
+
+- **Data Calculations (GitHub Repo):**  
+  Scripts and workflows that compute the indicators used in the Shiny app.  
+  → <https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations>
+
+- **Historical Data Archive (Zenodo):**  
+  A permanent archive of 15 years of data releases.  
+  → <https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest>
+
+- **Archived Documentation Site:**  
+  Historical documentation, methods, and notes.  
+  → <https://your-archived-html-url>
+
+---
+
+If you'd like to help, please check out the **How to Contribute** guide or open an issue in our GitHub repository.  
+Let's keep this important public data alive together!
