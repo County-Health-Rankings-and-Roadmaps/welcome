@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Welcome to the CountyHealth Open Source Community"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "How to Contribute"
+        href: contribute.qmd   # OR replace with external URL
+      - text: "Shiny App"
+        href: "https://your-shiny-app-url"
+      - text: "R Package" 
+        href: "CRAN" 
+      - text: "Data Calculations Repo"
+        href: "https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations"
+      - text: "Historical Data (Zenodo)"
+        href: "https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest"
+      - text: "Archived Documentation"
+        href: "https://your-archived-html-site"
+
+format:
+  html:
+    theme: cosmo   # (Simple Bootstrap theme)
+    toc: false
