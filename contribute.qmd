@@ -1,18 +1,15 @@
 ---
 title: "How to Contribute"
 ---
-
-# How to Contribute
-
 Thank you for your interest in contributing to the County Health Open Source Project!
 
 ## Ways to Contribute
 
-- Add or update data calculations  
+- Add or update [measure calculations](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations_  
 - Improve documentation  
 - Report issues or bugs  
 - Build educational or visualization tools  
-- Use our historical data archive to advocate for health equity  
+- Use our [historical data archive](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest) to advocate for health equity and tell us how you're using it via the [show and tell part of our discussion forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/new?category=show-and-tell)    
 
 ## Getting Started
 
@@ -23,4 +20,4 @@ Thank you for your interest in contributing to the County Health Open Source Pro
 
 ## Questions?
 
-Open an issue on GitHub or join the discussion forum.
+Join our [discussion forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/new?category=q-a).
