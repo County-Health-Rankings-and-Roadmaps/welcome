@@ -5,7 +5,7 @@ Thank you for your interest in contributing to the County Health Open Source Pro
 
 ## Ways to Contribute
 
-- Add or update [measure calculations](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations_  
+- Add or update [measure calculations](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations)  
 - Improve documentation  
 - Report issues or bugs  
 - Build educational or visualization tools  

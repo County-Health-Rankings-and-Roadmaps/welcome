@@ -6,39 +6,39 @@ Welcome to the **County Health Open Source Project**, a community-driven effort 
 
 Our mission is to:
 
-- Keep 15+ years of county health data accessible  
-- Enable researchers, analysts, and community members to contribute new calculations
-- Support transparent, open methods
-- Provide user-friendly ways to explore the data
+-   Keep 15+ years of county health data accessible
+-   Enable anyone with interest or expertise to contribute new calculations
+-   Support transparent, open methods
+-   Provide user-friendly ways to explore county-level health data
 
 ## Resources
 
-- **How to Contribute:**  
-  Guidance for contributing to calculations and and joining discussions.  
-  → <https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html>
+-   **Snapshot App:**\
+    Explore county-level health using an interactive interface.\
+    → <https://hannaheow.shinyapps.io/snapshot/>
 
-- **Snapshot App:**  
-  Explore county-level health using an interactive interface.  
-  → <https://hannaheow.shinyapps.io/snapshot/>
+-   **Data Calculations:**\
+    Scripts and workflows to compute county-level measures of health.\
+    → <https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations>
 
-- **Data Calculations:**  
-  Scripts and workflows to compute county-level measures of health.  
-  → <https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations>
+-   **countyhealthR package:**\
+    Seamlessly interact with county-level data in R.\
+    → LINK TO CRAN ONCE ITS PUBLISHED
 
-- **Historical Data Archive (Zenodo):**  
-  An archive of 15 years of County Health Rankings & Roadmaps data releases.  
-  → <https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest>
+-   **Historical Data Archive (Zenodo):**\
+    An archive of 15 years of County Health Rankings & Roadmaps data releases.\
+    → <https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest>
 
-- **Archived Documentation Site:**  
-  Historical documentation, methods, and notes.  
-  → <ARCHIVE_OF_ADMIN_SITE_HERE>
+-   **Archived Documentation Site:**\
+    Historical documentation, methods, and notes.\
+    → ARCHIVE_OF_ADMIN_SITE_HERE
 
-- **Check out all the ways CHR&R data has been used in the past!**
-  Live update of peer-reviewed publications citing CHR&R
-  → <FORTHCOMING>
+-   **Check our all of the ways CHR&R data has been used in the past!** \
+    Real-time updates of peer-reviewed publications citing CHR&R.\
+    → A FUN PLAYTHING FOR ME :) (in progress)
 
----
+------------------------------------------------------------------------
 
-If you'd like to help, please check out the **[How to Contribute](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html)** guide, explore the open issues in our **[measure calculations repository](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/issues)**, file a bug report to improve the snapshot app via the **[countyhealthR GitHub Issues page](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR/issues)**, or share ways that you're using CHR&R data in our **[Discussion Forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions)**.
- 
+If you'd like to help, please check out the [**How to Contribute**](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) guide, explore the open issues in our [**measure calculations repository**](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/issues), file a bug report to improve the snapshot app via the [snapshot Issues page](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR/issues), or share ways that you're using CHR&R data in our [**Discussion Forum**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions).
+
 Let's keep this important public data alive together!
