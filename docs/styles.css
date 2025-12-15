@@ -1,0 +1,127 @@
+/*
+styles.css — Corporate Clean navy + orange theme for Quarto
+Place this file in your project root (next to _quarto.yml) or in a `styles/` folder.
+Enable it by adding under `format: html:` in `_quarto.yml`: `css: styles.css` (or `styles/styles.css`).
+*/
+
+/* Import a clean sans-serif font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --brand-blue: #0B3D91;      /* primary */
+  --brand-orange: #FF8A00;    /* accent */
+  --bg: #F5F7FA;              /* page background */
+  --surface: #FFFFFF;         /* card / surface */
+  --text: #202428;            /* body text */
+  --muted: #6B7280;           /* secondary text */
+  --focus: #1F6A9A;           /* focus ring, subtle */
+  --radius: 8px;
+}
+
+/* Base */
+html, body {
+  height: 100%;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--brand-blue);
+  font-weight: 600;
+}
+
+/* Navbar / site header */
+.site-header, .navbar, header.site-header {
+  background-color: var(--brand-blue);
+  color: #fff;
+}
+.site-header a, .navbar a {
+  color: #fff;
+}
+.site-header a:hover, .navbar a:hover {
+  color: var(--brand-orange);
+}
+
+/* Links */
+a { color: var(--brand-blue); text-decoration: none; }
+a:hover { color: var(--brand-orange); text-decoration: underline; }
+
+/* Buttons */
+.btn, .button, .btn-primary {
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+.btn-primary {
+  background: linear-gradient(180deg, var(--brand-orange), #ff7a1a);
+  color: #fff;
+  border: none;
+  box-shadow: 0 6px 18px rgba(11,61,145,0.08);
+}
+.btn-primary:hover { transform: translateY(-1px); filter: brightness(0.98); }
+.btn-outline {
+  background: transparent; border: 1px solid rgba(11,61,145,0.10); color: var(--brand-blue);
+}
+
+/* Cards and surfaces */
+.card, .card-block, .quarto-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(11,61,145,0.04);
+  padding: 1.25rem;
+}
+
+/* Hero */
+.site-hero, .hero {
+  background: linear-gradient(90deg, rgba(11,61,145,0.03), transparent);
+  border-left: 4px solid var(--brand-orange);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(180deg, rgba(11,61,145,0.03), transparent);
+  color: var(--muted);
+  padding: 2rem 0;
+}
+
+/* Code blocks */
+pre, code, .highlight {
+  background: #F2F6FF; /* subtle blue tint */
+  border-radius: 6px;
+  padding: 0.6rem;
+}
+
+/* Accessibility: focus states */
+:focus {
+  outline: 3px solid rgba(31,106,154,0.18);
+  outline-offset: 2px;
+}
+
+/* Badges and accents */
+.badge, .label {
+  background: rgba(255,138,0,0.09);
+  color: var(--brand-orange);
+  padding: 0.2rem 0.5rem; border-radius: 999px; font-weight: 600;
+}
+
+/* Small polish */
+img { max-width: 100%; height: auto; border-radius: 6px; }
+.card img { border-radius: 6px; }
+
+/* Subtle transitions for interactive elements */
+a, .btn, .site-nav a { transition: color 160ms ease, transform 160ms ease; }
+
+/* Responsive tweak for narrower content */
+@media (max-width: 700px) {
+  .hero { padding: 1rem; }
+}
+
+/* End of styles */
