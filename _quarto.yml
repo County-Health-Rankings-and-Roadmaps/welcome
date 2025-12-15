@@ -23,5 +23,5 @@ website:
 
 format:
   html:
-    theme: cosmo   # (Simple Bootstrap theme)
+    css: styles.css # custom orange and blue colors 
     toc: false
