@@ -4,6 +4,15 @@ title: "County Health Open Source Project"
 
 Welcome to the **County Health Open Source Project**, a community-driven effort to preserve, update, and extend the **County Health Rankings & Roadmaps** data after the loss of program funding.
 
+For the past fifteen years (2010-2025), County Health Rankings & Roadmaps (CHR&R) has drawn attention to why there are differences in health within and across communities. 
+The program highlights policies and practices that can help everyone be as healthy as possible. 
+CHR&R aims to grow a shared understanding of health, equity and the power of communities to improve health for all. 
+This work is rooted in a long-term vision where all people and places have what they need to thrive.  
+
+CHR&R is committed to creating resources and tools that support community-led efforts to accurately diagnose core problems, 
+understand and account for historical context and implement evidence-informed solutions. 
+CHR&R provides a snapshot of the health of nearly every county in the nation.  
+
 Our mission is to:
 
 -   Keep 15+ years of county health data accessible
@@ -25,20 +34,20 @@ Our mission is to:
     Seamlessly interact with county-level data in R.\
     → LINK TO CRAN ONCE ITS PUBLISHED
 
--   **Historical Data Archive (Zenodo):**\
-    An archive of 15 years of County Health Rankings & Roadmaps data releases.\
+-   **Archived Data:**\
+    An archive CHR&R data releases for 2010 through 2025.\
     → <https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest>
 
--   **Archived Documentation Site:**\
-    Historical documentation, methods, and notes.\
+-   **Archived Documentation:**\
+    15 years of documentation, methods, and notes.\
     → ARCHIVE_OF_ADMIN_SITE_HERE
 
--   **Check our all of the ways CHR&R data has been used in the past!** \
+-   **Check out all of the ways CHR&R data has been used in the past!** \
     Real-time updates of peer-reviewed publications citing CHR&R.\
-    → A FUN PLAYTHING FOR ME :) (in progress)
+    → A FUN PLAYTHING - TBD 
 
 ------------------------------------------------------------------------
 
-If you'd like to help, please check out the [**How to Contribute**](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) guide, explore the open issues in our [**measure calculations repository**](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/issues), file a bug report to improve the snapshot app via the [snapshot Issues page](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR/issues), or share ways that you're using CHR&R data in our [**Discussion Forum**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions).
+If you'd like to help, please check out the [**Contribution Guide**](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) or use the [**Discussion Forum**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/show-and-tell) to share the ways you're using CHR&R data in your own work!
 
 Let's keep this important public data alive together!
