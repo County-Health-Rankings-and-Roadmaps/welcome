@@ -63,12 +63,6 @@ For feature requests, briefly describe the public health use case
 - Build educational or visualization tools  
 - Use our [historical data archive](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest) to advocate for health equity and tell us how you're using it via the [show and tell part of our discussion forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/new?category=show-and-tell)    
 
-## Getting Started
-
-1. Fork the GitHub repository  
-2. Create a feature branch  
-3. Run the calculation scripts locally  
-4. Submit a pull request
 
 ## Questions?
 
