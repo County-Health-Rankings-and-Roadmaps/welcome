@@ -5,21 +5,50 @@ title: "How to Contribute"
 Thank you for your interest in contributing to the County Health Open Source Project!
 
 ## Ways to Contribute
+### Measure calculations repository 
+The [measure calculations repository](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations) is the core engine behind CHR&R data. Following funding loss, we especially welcome contributions that help extend calculations beyond 2025/2026. 
 
--   Add or update [measure calculations](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations)\
--   Improve documentation\
--   Report issues or bugs
-    -   File an issue in the countyhealthR package
-    -   File an issue in the snapshot app \
--   Build educational or visualization tools\
--   Use our [historical data archive](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest) to advocate for health equity and tell us how you're using it via the [show and tell part of our discussion forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/new?category=show-and-tell)
+#### You can: 
+- Add publicly available raw data for years beyond 2025/2026 
+- Update calculation scripts to accommodate new data
+- Flag broken data sources or links 
+- Propose alternative publicly accessible data sources if original sources are no longer available 
+- Improve reproducibility, performance, or documentation of workflows 
 
-## Getting Started
+#### Important context: 
 
-1.  Fork the GitHub repository\
-2.  Create a feature branch\
-3.  Run the calculation scripts locally\
-4.  Submit a pull request
+Contributions should prioritize transparency, traceability, and alignment with historical methods 
+
+If methods change due to data availability, clearly document the change and its implications 
+
+We ask that you aim to contribute a measure in its entirety – in other words, if possible, please provide raw data, any necessary inputs, a clearly documented script for completing calculations, and a finalized measure dataset for any measure that you undertake.  
+
+#### How to contribute: 
+
+Start by opening an Issue describing: 
+  1) The measure of health   
+  2) The data source 
+  3) Years covered 
+  4) Any deviations from prior methods 
+
+Fork the repository and create a feature branch 
+
+Run calculation scripts locally and validate outputs 
+
+Update documentation to reflect changes 
+
+Submit a pull request with a clear summary and validation notes 
+
+###  Snapshot App 
+
+Contributions to the Snapshot App focus on usability, accuracy, and clarity. 
+
+#### You can: 
+- Report bugs (e.g., filters not working, incorrect values, display issues) 
+- Suggest usability or accessibility improvements 
+- Propose new comparisons, tools, or explanatory text 
+- Flag inconsistencies between the app and published data or documentation 
+
 
 ## Questions?
 
