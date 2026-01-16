@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Welcome to the CountyHealth Open Source Community"
+  title: "Welcome to the County Health Open-source Community"
   navbar:
     left:
       - text: "Home"
@@ -11,15 +11,18 @@ website:
       - text: "How to Contribute"
         href: contribute.qmd   # OR replace with external URL
       - text: "Shiny App"
-        href: "https://your-shiny-app-url"
+        href: "https://countyhealthrankings.shinyapps.io/snapshot/"
+        target: _blank 
       - text: "R Package" 
-        href: "CRAN" 
+        href: "COMING SOON" 
       - text: "Data Calculations Repo"
         href: "https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations"
+        target: _blank 
       - text: "Historical Data (Zenodo)"
         href: "https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest"
+        target: _blank 
       - text: "Archived Documentation"
-        href: "https://your-archived-html-site"
+        href: "COMING SOON"
 
 format:
   html:
