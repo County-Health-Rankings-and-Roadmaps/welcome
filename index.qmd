@@ -22,30 +22,29 @@ Our mission is to:
 
 ## Resources
 
+-   **Measure Calculations:**\
+    Scripts and workflows to compute county-level measures of health.\
+     → [View the Measure Calculations repository](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations){target="_blank"}
+
 -   **Snapshot App:**\
     Explore county-level health using an interactive interface.\
-    → <https://hannaheow.shinyapps.io/snapshot/>
-
--   **Data Calculations:**\
-    Scripts and workflows to compute county-level measures of health.\
-    → <https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations>
+    → [Launch the Snapshot App](https://countyhealthrankings.shinyapps.io/snapshot/){target="_blank"}
 
 -   **countyhealthR package:**\
     Seamlessly interact with county-level data in R.\
-    → LINK TO CRAN ONCE ITS PUBLISHED
+    → COMING SOON 
 
 -   **Archived Data:**\
     An archive CHR&R data releases for 2010 through 2025.\
-    → <https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest>
+    → [Browse archived data on Zenodo](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest){target="_blank"}
 
 -   **Archived Documentation:**\
     15 years of documentation, methods, and notes.\
-    → ARCHIVE_OF_ADMIN_SITE_HERE
+    → COMING SOON
 
 -   **Check out all of the ways CHR&R data has been used in the past!** \
     Real-time updates of peer-reviewed publications citing CHR&R.\
-    → A FUN PLAYTHING - TBD 
-
+    → COMING SOON
 ------------------------------------------------------------------------
 
 If you'd like to help, please check out the [**Contribution Guide**](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) or use the [**Discussion Forum**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/show-and-tell) to share the ways you're using CHR&R data in your own work!
