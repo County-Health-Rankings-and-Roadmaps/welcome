@@ -6,15 +6,18 @@ website:
   title: "Welcome to the County Health Open-Source Community"
   navbar:
     left:
-    - text: "<span title='Guidelines for contributing to the project'>Contribution Guidelines</span>"
+    - text: "<span title='Learn more about how you can get involved!'>Contribution Guidelines</span>"
       href: contribute.qmd
-    - text: "<span title='Scripts, inputs, and raw data for calculating measures'>Measure Calculations</span>"
+    - text: "<span title='Community forum including general Q&A and Show & Tell'>Discussion Forum</span>"
+      href: "https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions"
+      target: _blank
+    - text: "<span title='Scripts, inputs, and raw data for calculating CHR&R measures of health'>Measure Calculations</span>"
       href: "https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations"
       target: _blank
-    - text: "<span title='Interactive tool for county-level snapshots'>County Snapshot</span>"
+    - text: "<span title='Interactive tool for viewing county-level data'>County Snapshot</span>"
       href: "https://countyhealthrankings.shinyapps.io/snapshot/"
       target: _blank
-    - text: "<span title='R package for programmatic access to county health data'>countyhealthR Package</span>"
+    - text: "<span title='R package for programmatic access to county-level health data'>countyhealthR Package</span>"
       href: "https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR"
       target: _blank
     - text: "<span title='Downloadable and relational county-level datasets'>Data Archives (Zenodo)</span>"
