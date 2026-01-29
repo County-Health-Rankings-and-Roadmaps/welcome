@@ -39,14 +39,42 @@
     "href": "contribute.html",
     "title": "Contribution Guidelines",
     "section": "",
-    "text": "Thank you for your interest in contributing to the County Health Open Source Project!"
+    "text": "Thank you for your interest in contributing to the County Health Open-Source Project! There are many ways to get involved. Below we’ve highlighted just some of the ways we invite you to participate."
   },
   {
-    "objectID": "contribute.html#ways-to-contribute",
-    "href": "contribute.html#ways-to-contribute",
+    "objectID": "contribute.html#measure-calculations-repository",
+    "href": "contribute.html#measure-calculations-repository",
     "title": "Contribution Guidelines",
-    "section": "Ways to Contribute",
-    "text": "Ways to Contribute\n\nMeasure calculations repository\nThe measure calculations repository is the core engine behind CHR&R data. Following funding loss, we especially welcome contributions that help extend calculations beyond 2025/2026.\n\nYou can:\n\nAdd publicly available raw data for years beyond 2025/2026\nUpdate calculation scripts to accommodate new data\nFlag broken data sources or links\nPropose alternative publicly accessible data sources if original sources are no longer available\nImprove reproducibility, performance, or documentation of workflows\n\n\n\nImportant context:\nContributions should prioritize transparency, traceability, and alignment with historical methods\nIf methods change due to data availability, clearly document the change and its implications\nWe ask that you aim to contribute a measure in its entirety – in other words, if possible, please provide raw data, any necessary inputs, a clearly documented script for completing calculations, and a finalized measure dataset for any measure that you undertake.\n\n\nHow to contribute:\nSubmissions are reviewed before acceptance. To submit a contribution to the repository:\n\nStart by opening an Issue describing:\n\nThe measure of health\nThe data source\nYears covered\nAny deviations from prior methods\n\nFork the repository and create a feature branch\nRun calculation scripts locally and validate outputs\nUpdate documentation to reflect changes\nSubmit a pull request with a clear summary and notes\n\n\n\n\nCounty Snapshot\nContributions to the County Snapshot focus on usability, accuracy, and clarity.\nYou can:\n\nReport bugs (e.g., filters not working, incorrect values, display issues)\nSuggest usability or accessibility improvements\nPropose new comparisons, tools, or explanatory text\nFlag inconsistencies between the app and published data or documentation\n\n\nHow to contribute:\n\nOpen an Issue on the County Snapshot repository\n\nIf reporting a bug, please include clear reproduction steps, screenshots if possible, and the browser/device used.\nFor feature requests, briefly describe the public health use case.\n\n\n\n\n\ncountyhealthR package\nContributions to countyhealthR focus on functionality, reliability, and analyst experience.\nYou can:\n\nFile bugs related to data access, function outputs, or errors\nSuggest or implement new helper functions\nImprove documentation, examples, or vignettes\nAdd tests or improve error messaging\n\n\nHow to contribute:\n\nOpen an Issue to report bugs or discuss proposed changes\nFor code contributions:\n\nFork the repository\nCreate a feature branch\nFollow tidyverse-style conventions where possible\nInclude documentation updates and tests when relevant\nSubmit a pull request referencing the related issue\n\n\n\n\n\nArchived Data & Documentation \nArchived materials are intended for reuse, extension, and storytelling. \nYou can: \n\nUse archived data to study trends, policy impacts, or health inequities \nCombine archived CHR&R data with new data sources \nDevelop teaching materials, dashboards, or advocacy tools \nShare how you are using the data to inform local or regional decision-making \n\n\nHow to contribute: \n\nParticipate in the community discussion forum \nShare projects, analyses, or visualizations in the Show & Tell section \nInclude links and citations to our data where possible \n\n\n\n\nCommunity Norms \n\nBe respectful and constructive \nAssume good intent \nDocument decisions and tradeoffs clearly \nPrioritize equity, transparency, and public health impact \n\nWe are especially committed to building an open-source community that is useful with or without deep GitHub or data expertise. \nThank you for contributing to the future of county-level health data."
+    "section": "Measure calculations repository",
+    "text": "Measure calculations repository\nThe measure calculations repository is the core engine behind CHR&R data. Following funding loss, we especially welcome contributions that help extend calculations beyond 2025/2026.\n\nYou can:\n\nAdd publicly available raw data for years beyond 2025/2026\nUpdate calculation scripts to accommodate new data\nFlag broken data sources or links\nPropose alternative publicly accessible data sources if original sources are no longer available\nImprove reproducibility, performance, or documentation of workflows\n\n\n\nImportant context:\nContributions should prioritize transparency, traceability, and alignment with historical methods\nIf methods change due to data availability, clearly document the change and its implications\nWe ask that you aim to contribute a measure in its entirety – in other words, if possible, please provide raw data, any necessary inputs, a clearly documented script for completing calculations, and a finalized measure dataset for any measure that you undertake.\n\n\nHow to contribute:\nSubmissions are reviewed before acceptance. To submit a contribution to the repository:\n\nStart by opening an Issue describing:\n\nThe measure of health\nThe data source\nYears covered\nAny deviations from prior methods\n\nFork the repository and create a feature branch\nRun calculation scripts locally and validate outputs\nUpdate documentation to reflect changes\nSubmit a pull request with a clear summary and notes"
+  },
+  {
+    "objectID": "contribute.html#county-snapshot",
+    "href": "contribute.html#county-snapshot",
+    "title": "Contribution Guidelines",
+    "section": "County Snapshot",
+    "text": "County Snapshot\nContributions to the County Snapshot focus on usability, accuracy, and clarity.\nYou can:\n\nReport bugs (e.g., filters not working, incorrect values, display issues)\nSuggest usability or accessibility improvements\nPropose new comparisons, tools, or explanatory text\nFlag inconsistencies between the app and published data or documentation\n\n\nHow to contribute:\n\nOpen an Issue on the County Snapshot repository\n\nIf reporting a bug, please include clear reproduction steps, screenshots if possible, and the browser/device used.\nFor feature requests, briefly describe the public health use case."
+  },
+  {
+    "objectID": "contribute.html#countyhealthr-package",
+    "href": "contribute.html#countyhealthr-package",
+    "title": "Contribution Guidelines",
+    "section": "countyhealthR package",
+    "text": "countyhealthR package\nContributions to countyhealthR focus on functionality, reliability, and analyst experience.\nYou can:\n\nFile bugs related to data access, function outputs, or errors\nSuggest or implement new helper functions\nImprove documentation, examples, or vignettes\nAdd tests or improve error messaging\n\n\nHow to contribute:\n\nOpen an Issue to report bugs or discuss proposed changes\nFor code contributions:\n\nFork the repository\nCreate a feature branch\nFollow tidyverse-style conventions where possible\nInclude documentation updates and tests when relevant\nSubmit a pull request referencing the related issue"
+  },
+  {
+    "objectID": "contribute.html#archived-data-documentation",
+    "href": "contribute.html#archived-data-documentation",
+    "title": "Contribution Guidelines",
+    "section": "Archived Data & Documentation ",
+    "text": "Archived Data & Documentation \nArchived materials are intended for reuse, extension, and storytelling. \nYou can: \n\nUse archived data to study trends, policy impacts, or health inequities \nCombine archived CHR&R data with new data sources \nDevelop teaching materials, dashboards, or advocacy tools \nShare how you are using the data to inform local or regional decision-making \n\n\nHow to contribute: \n\nParticipate in the community discussion forum \nShare projects, analyses, or visualizations in the Show & Tell section \nInclude links and citations to our archived data wherever possible"
+  },
+  {
+    "objectID": "contribute.html#community-norms",
+    "href": "contribute.html#community-norms",
+    "title": "Contribution Guidelines",
+    "section": "Community Norms ",
+    "text": "Community Norms \n\nBe respectful and constructive \nAssume good intent \nDocument decisions and tradeoffs clearly \nPrioritize equity, transparency, and public health impact \n\nWe are especially committed to building an open-source community that is useful with or without deep GitHub or data expertise. \nThank you for contributing to the future of county-level health data."
   },
   {
     "objectID": "contribute.html#questions",
