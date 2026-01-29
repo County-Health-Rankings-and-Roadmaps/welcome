@@ -1,54 +1,125 @@
 ---
-title: "How to Contribute"
+title: "Contribution Guidelines"
 ---
 
 Thank you for your interest in contributing to the County Health Open Source Project!
 
 ## Ways to Contribute
-### Measure calculations repository 
-The [measure calculations repository](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations) is the core engine behind CHR&R data. Following funding loss, we especially welcome contributions that help extend calculations beyond 2025/2026. 
 
-#### You can: 
-- Add publicly available raw data for years beyond 2025/2026 
-- Update calculation scripts to accommodate new data
-- Flag broken data sources or links 
-- Propose alternative publicly accessible data sources if original sources are no longer available 
-- Improve reproducibility, performance, or documentation of workflows 
+### Measure calculations repository
 
-#### Important context: 
+The [measure calculations repository](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations) is the core engine behind CHR&R data. Following funding loss, we especially welcome contributions that help extend calculations beyond 2025/2026.
 
-Contributions should prioritize transparency, traceability, and alignment with historical methods 
+#### You can:
 
-If methods change due to data availability, clearly document the change and its implications 
+-   Add publicly available raw data for years beyond 2025/2026
+-   Update calculation scripts to accommodate new data
+-   Flag broken data sources or links
+-   Propose alternative publicly accessible data sources if original sources are no longer available
+-   Improve reproducibility, performance, or documentation of workflows
 
-We ask that you aim to contribute a measure in its entirety – in other words, if possible, please provide raw data, any necessary inputs, a clearly documented script for completing calculations, and a finalized measure dataset for any measure that you undertake.  
+#### Important context:
+
+Contributions should prioritize transparency, traceability, and alignment with historical methods
+
+If methods change due to data availability, clearly document the change and its implications
+
+We ask that you aim to contribute a measure in its entirety – in other words, if possible, please provide raw data, any necessary inputs, a clearly documented script for completing calculations, and a finalized measure dataset for any measure that you undertake.
+
+#### How to contribute:
+
+Submissions are reviewed before acceptance. To submit a contribution to the repository:
+
+1.  Start by opening [an Issue](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/issues) describing:
+
+    a.  The measure of health
+
+    b.  The data source
+
+    c.  Years covered
+
+    d.  Any deviations from prior methods
+
+2.  Fork the repository and create a feature branch
+
+3.  Run calculation scripts locally and validate outputs
+
+4.  Update documentation to reflect changes
+
+5.  Submit a pull request with a clear summary and notes
+
+### County Snapshot
+
+Contributions to the [County Snapshot](https://countyhealthrankings.shinyapps.io/snapshot/) focus on usability, accuracy, and clarity.
+
+You can:
+
+-   Report bugs (e.g., filters not working, incorrect values, display issues)
+-   Suggest usability or accessibility improvements
+-   Propose new comparisons, tools, or explanatory text
+-   Flag inconsistencies between the app and published data or documentation
 
 #### How to contribute: 
 
-Start by opening an Issue describing: 
-  1) The measure of health   
-  2) The data source 
-  3) Years covered 
-  4) Any deviations from prior methods 
+-   Open [an Issue](https://github.com/County-Health-Rankings-and-Roadmaps/snapshot/issues) on the County Snapshot repository
+    -   If reporting a bug, please include clear reproduction steps, screenshots if possible, and the browser/device used.
 
-Fork the repository and create a feature branch 
+    -   For feature requests, briefly describe the public health use case.
 
-Run calculation scripts locally and validate outputs 
+### countyhealthR package 
 
-Update documentation to reflect changes 
+Contributions to countyhealthR focus on functionality, reliability, and analyst experience.
 
-Submit a pull request with a clear summary and validation notes 
+You can:
 
-###  Snapshot App 
+-   File bugs related to data access, function outputs, or errors
+-   Suggest or implement new helper functions
+-   Improve documentation, examples, or vignettes
+-   Add tests or improve error messaging
 
-Contributions to the Snapshot App focus on usability, accuracy, and clarity. 
+#### How to contribute: 
 
-#### You can: 
-- Report bugs (e.g., filters not working, incorrect values, display issues) 
-- Suggest usability or accessibility improvements 
-- Propose new comparisons, tools, or explanatory text 
-- Flag inconsistencies between the app and published data or documentation 
+-   Open [an Issue](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR/issues) to report bugs or discuss proposed changes
 
+-   For code contributions:
+
+    -   Fork the repository
+
+    -   Create a feature branch
+
+    -   Follow tidyverse-style conventions where possible
+
+    -   Include documentation updates and tests when relevant
+
+    -   Submit a pull request referencing the related issue
+
+### **Archived Data & Documentation** 
+
+Archived materials are intended for reuse, extension, and storytelling. 
+
+You can: 
+
+-   Use archived data to study trends, policy impacts, or health inequities 
+-   Combine archived CHR&R data with new data sources 
+-   Develop teaching materials, dashboards, or advocacy tools 
+-   Share how you are using the data to inform local or regional decision-making 
+
+#### **How to contribute:** 
+
+-   Participate in the [community discussion forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions) 
+-   Share projects, analyses, or visualizations in the [Show & Tell section](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/show-and-tell) 
+-   Include links and citations to our data where possible 
+
+### **Community Norms** 
+
+-   Be respectful and constructive 
+-   Assume good intent 
+-   Document decisions and tradeoffs clearly 
+-   Prioritize equity, transparency, and public health impact 
+
+We are especially committed to building an open-source community that is useful with or without deep GitHub or data expertise. 
+
+Thank you for contributing to the future of county-level health data. 
 
 ## Questions?
 
