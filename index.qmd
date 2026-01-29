@@ -27,6 +27,8 @@ Thanks for checking out our community of researchers, analysts, and public healt
 
 [**Discussion Forum:**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/q-a) General Q&A and troubleshooting space. Ask questions about methods, data, or specific use-cases. Anyone is welcome to ask a question or provide an answer.
 
+------------------------------------------------------------------------
+
 ## Tools 
 
 Open-source tools for accessing, calculating, and exploring county-level health measures. Most tools have public GitHub repositories where anyone is welcome to suggest improvements or report bugs.
@@ -38,6 +40,8 @@ Open-source tools for accessing, calculating, and exploring county-level health 
 **Life Expectancy Calculator (LINK COMING SOON):** Microsoft Excel calculator for estimating county-level life expectancy. Useful for method transparency and scenario testing.
 
 Do you have an idea for a new tool? Tell us more in the [Discussion Forum](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/q-a)!
+
+------------------------------------------------------------------------
 
 ## Archives 
 
@@ -51,6 +55,8 @@ In funding loss, not everything can be maintained. To check out fifteen years of
 
 **What Works for Health Archives (LINK COMING SOON)**: Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.
 
-#### If you'd like to help, please check out the [**Contribution Guidelines**](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) or use the [**Discussion Forum**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/show-and-tell) to share the ways you're using CHR&R data in your own work!
+------------------------------------------------------------------------
 
-#### Let's keep this important public data alive together!
+## If you'd like to help, please check out the [**Contribution Guidelines**](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) or use the [**Discussion Forum**](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/show-and-tell) to share the ways you're using CHR&R data in your own work!
+
+## Let's keep this important public data alive together!

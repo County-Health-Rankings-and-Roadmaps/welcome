@@ -25,7 +25,21 @@
     "href": "index.html#archives",
     "title": "County Health Open-Source Project",
     "section": "Archives",
-    "text": "Archives\nIn funding loss, not everything can be maintained. To check out fifteen years of CHR&R history, visit our archives:\nData Archives (Zenodo): Versioned releases of CHR&R datasets for each year (2010–2025), each with a DOI for citation and direct download. There are two primary Zenodo repositories: one contains human-readable Excel files, designed for quick inspection and use by non-technical users, and the other contains relational files with metadata, which are most useful for analysts. The relational files serve as the backbone of the countyhealthR package and the County Snapshot app.\nMethods and Source Documentation Archives (LINK COMING SOON): Static archive of measure definitions, source descriptions, and calculation notes from past releases. Use this to understand how measures were historically calculated.\nPublications and White Papers (LINK COMING SOON): Past technical reports and methods papers describing the CHR&R model, measures, and methods.\nWhat Works for Health Archives (LINK COMING SOON): Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.\n\nIf you’d like to help, please check out the Contribution Guidelines or use the Discussion Forum to share the ways you’re using CHR&R data in your own work!\n\n\nLet’s keep this important public data alive together!"
+    "text": "Archives\nIn funding loss, not everything can be maintained. To check out fifteen years of CHR&R history, visit our archives:\nData Archives (Zenodo): Versioned releases of CHR&R datasets for each year (2010–2025), each with a DOI for citation and direct download. There are two primary Zenodo repositories: one contains human-readable Excel files, designed for quick inspection and use by non-technical users, and the other contains relational files with metadata, which are most useful for analysts. The relational files serve as the backbone of the countyhealthR package and the County Snapshot app.\nMethods and Source Documentation Archives (LINK COMING SOON): Static archive of measure definitions, source descriptions, and calculation notes from past releases. Use this to understand how measures were historically calculated.\nPublications and White Papers (LINK COMING SOON): Past technical reports and methods papers describing the CHR&R model, measures, and methods.\nWhat Works for Health Archives (LINK COMING SOON): Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025."
+  },
+  {
+    "objectID": "index.html#if-youd-like-to-help-please-check-out-the-contribution-guidelines-or-use-the-discussion-forum-to-share-the-ways-youre-using-chrr-data-in-your-own-work",
+    "href": "index.html#if-youd-like-to-help-please-check-out-the-contribution-guidelines-or-use-the-discussion-forum-to-share-the-ways-youre-using-chrr-data-in-your-own-work",
+    "title": "County Health Open-Source Project",
+    "section": "If you’d like to help, please check out the Contribution Guidelines or use the Discussion Forum to share the ways you’re using CHR&R data in your own work!",
+    "text": "If you’d like to help, please check out the Contribution Guidelines or use the Discussion Forum to share the ways you’re using CHR&R data in your own work!"
+  },
+  {
+    "objectID": "index.html#lets-keep-this-important-public-data-alive-together",
+    "href": "index.html#lets-keep-this-important-public-data-alive-together",
+    "title": "County Health Open-Source Project",
+    "section": "Let’s keep this important public data alive together!",
+    "text": "Let’s keep this important public data alive together!"
   },
   {
     "objectID": "contribute.html",
