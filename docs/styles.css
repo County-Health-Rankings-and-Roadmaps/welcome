@@ -174,9 +174,8 @@ body {
 .navbar-inner {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  width: 100%;
-  max-width: 1200px; /* optional but recommended */
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 /* Navbar logo */
@@ -226,6 +225,14 @@ body {
 /* Extra space after CHOP: */
 .chop-acronym {
   margin-right: 1rem; /* 👈 adjust to taste */
+}
+
+/* Navbar logo fixed size */
+.navbar .navbar-logo {
+  height: 40px;       /* adjust as needed */
+  max-height: 40px;   /* enforce max */
+  width: auto;        /* keep aspect ratio */
+  display: block;
 }
 
 
