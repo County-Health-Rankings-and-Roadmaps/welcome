@@ -14,10 +14,10 @@ With the planned retirement of the CHR&R website at the end of December 2026, ma
 
 -   [Measure calculation codes](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations): scripts and workflows to calculate all CHR&R measure from the latest annual release
 -   Datasets: Versioned releases of CHR&R datasets for each year (2010-2025), each with a DOI for citation and direct download. There are two primary repositories: one contains [human readable Excel files](https://doi.org/10.5281/zenodo.17584420) and the other contains [relational files with metadata](https://doi.org/10.5281/zenodo.18157681)
--   [Methods and source documentation](https://matchdev.chsra.wisc.edu/admin-tools/index.php): static archive of measure definitions, source descriptions, and calculation notes from past releases
+-   [Methods and source documentation](https://matchdev.chsra.wisc.edu/admin/rankings/data-entry/measures/index.php): static archive of measure definitions, source descriptions, and calculation notes from past releases
 
-[**countyhealthR**](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR)(currently available on GitHub; expected on CRAN by April 2026): is an R package that enables programmatic, reproducible access to archived CHR&R data from 2010 to 2025.
+[**countyhealthR**](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR) is an R package that enables programmatic, reproducible access to archived CHR&R data from 2010 to 2025. It is currently available on GitHub, expected on CRAN by April 2026.
 
 [**Publications and White Papers**:](https://www.countyhealthrankings.org/findings-and-insights/scholarly-publications) <!--# links to CHRR website for now but later will link to a NCBI (or other) collection --> Past technical reports and methods papers describing the CHR&R model, measures, and methods.
 
-**What Works for Health Archives** (LINK COMING SOON): Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.
+**What Works for Health Archives** <span class='badge-dev'></span>(COMING SOON)</span>: Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.

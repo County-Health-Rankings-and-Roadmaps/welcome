@@ -12,13 +12,13 @@ Researchers, public health practitioners, data analysts, and anyone who uses cou
 
 ### **WHAT**
 
-The **CHR&R Open-source Project** is a collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level health measures. Community members have access to:
+A collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level health measures. Community members have access to:
 
--   Documented workflows for reproducible analysis
--   A Discussion Forum for questions and troubleshooting
--   A Show and Tell space to share successes, lessons, and analyses
+-   [Documented workflows](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations) for reproducible analysis
+-   A [Discussion Forum](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions) for questions and troubleshooting
+-   A [Show and Tell space](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions/categories/show-and-tell) to share successes, lessons, and analyses
 
-We encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this is a place to learn and build together.
+We encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this is a place to learn and build together. Check out the [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to see how you can get involved.
 
 ### **WHEN**
 
@@ -26,7 +26,7 @@ The project is expected to be fully launched by Summer 2026, and the community w
 
 ### **WHERE**
 
-All of our code, discussion forums, and resources live on GitHub, so anyone can access, use, and build on them from anywhere in the world.
+All of our code, discussion forums, and resources live on [GitHub](https://github.com/County-Health-Rankings-and-Roadmaps), so anyone can access, use, and build upon them from anywhere in the world.
 
 ### **WHY**
 

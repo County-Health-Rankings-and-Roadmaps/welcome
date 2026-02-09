@@ -2,20 +2,6 @@ project:
   type: website
   output-dir: docs 
 
-website:
-  title: "County Health Open-source Project"
-  navbar:
-    background: transparent
-    collapse: false
-    left:
-      - text: "County Health Snapshots"
-        href: snapshots.qmd
-      - text: "The CHR&R Archives"
-        href: archives.qmd
-      - text: "CHR&R Open-source Community"
-        href: community.qmd
-      - text: "About Us"
-        href: about.qmd
 
 format:
   html:

@@ -59,7 +59,7 @@ a:hover { color: var(--brand-orange); text-decoration: underline; }
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 .btn-primary {
-  background: linear-gradient(180deg, var(--brand-orange), #ff7a1a);
+  background: linear-gradient(180deg, var(--brand-orange),  #FF8A00;);
   color: #fff;
   border: none;
   box-shadow: 0 6px 18px rgba(11,61,145,0.08);
@@ -143,15 +143,11 @@ body {
   padding-top: 0;
 }
 
-/* =========================================================
-   TOP ORANGE HEADER (ALWAYS FIRST)
-   ========================================================= */
-
+/* Top orange header — already in your CSS */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
-
   background-color: var(--brand-orange);
   color: #ffffff;
   padding: 1.25rem 2rem;
@@ -161,25 +157,78 @@ body {
   letter-spacing: 0.3px;
 }
 
-/* No links expected here, but just in case */
-.site-header a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* =========================================================
-   STICKY BLUE NAV BAR (SECOND ROW)
-   ========================================================= */
-
+/* Blue navbar sticky below orange header */
 .navbar {
   position: sticky;
-  top: 72px; /* height of orange header — adjust if needed */
+  top: 72px; /* adjust to height of orange bar */
   z-index: 999;
-
-  background-color: var(--brand-blue) !important;
-  border: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  background-color: var(--brand-blue);
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap; /* space between logo and links */
 }
+
+/* Inner container */
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px; /* optional but recommended */
+}
+
+/* Navbar logo */
+.navbar .site-logo img {
+  height: 90px; /* adjust as needed */
+  width: auto;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+/* Navbar links container */
+.navbar .site-nav {
+  display: flex;        /* links laid out horizontally */
+  align-items: center;
+  gap: 1.5rem;          /* space between links */
+}
+
+/* Navbar badges */
+.navbar .badge-dev {
+  color: #FF8A00;
+  font-size: 0.8em;
+  font-weight: 600;
+  display: block;
+}
+
+/* Emphasized CHOP letters in title */
+.site-header .chop-letter {
+  font-weight: 800;
+  font-size: 2.2rem;
+  letter-spacing: 0.05em;
+  margin-right: 0.05em;
+}
+
+/* Base text in orange header */
+.site-header {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* mobile-friendly */
+}
+
+/* Extra space after CHOP: */
+.chop-acronym {
+  margin-right: 1rem; /* 👈 adjust to taste */
+}
+
+
 
 
 /* End of styles */

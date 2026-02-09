@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The CHR&amp;R Open-source Community – County Health Open-source Project</title>
+<title>The CHR&amp;R Open-source Community</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -40,13 +39,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b01fe6f4da34a8f55b0bd739d09a8831.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -68,11 +67,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-</head><body class="nav-fixed fullcontent quarto-light"><div class="site-header">
+<!-- Top orange bar -->
 
-  County Health Open-source Project
+</head><body class="fullcontent quarto-light"><div class="site-header">
 
-</div>
+  <span class="chop-acronym">
+
+    <span class="chop-letter">CHOP:</span>
+
+  <span class="chop-letter">C</span>ounty
+
+  <span class="chop-letter">H</span>ealth
+
+  <span class="chop-letter">O</span>pen-source
+
+  <span class="chop-letter">P</span>roject
+
+</span></div>
+
+
+
+
+
+<!-- Sticky blue navbar with logo and links -->
+
+<nav class="navbar">
+
+  <div class="navbar-inner">
+
+    <!-- Logo on the left -->
+
+    <a href="./index.html" class="site-logo">
+
+      <img src="images/choplogo_gpt_nobackground.png" alt="placeholder C.H.O.P. Logo">
+
+    </a>
+
+
+
+    <!-- Navbar links -->
+
+    <a href="https://countyhealthrankings.shinyapps.io/snapshot/">
+
+      County Health Snapshots<br><span class="badge-dev">(IN DEVELOPMENT)</span>
+
+    </a>
+
+    <a href="./archives.html">The CHR&amp;R Archives</a>
+
+    <a href="./community.html">
+
+      County Health Open-source Community<br><span class="badge-dev">(COMING SOON)</span>
+
+    </a>
+
+    <a href="./about.html">About Us</a>
+
+  </div>
+
+</nav>
 
 
 
@@ -82,40 +135,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">County Health Open-source Project</span>
-    </a>
-  </div>
-          <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./snapshots.qmd"> 
-<span class="menu-text">County Health Snapshots</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./archives.html"> 
-<span class="menu-text">The CHR&amp;R Archives</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./community.html" aria-current="page"> 
-<span class="menu-text">CHR&amp;R Open-source Community</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About Us</span></a>
-  </li>  
-</ul>
-          <div class="quarto-navbar-tools">
-</div>
-            <div id="quarto-search" class="" title="Search"></div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -150,13 +171,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what" class="level3">
 <h3 class="anchored" data-anchor-id="what"><strong>WHAT</strong></h3>
-<p>The <strong>CHR&amp;R Open-source Project</strong> is a collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level health measures. Community members have access to:</p>
+<p>A collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level health measures. Community members have access to:</p>
 <ul>
-<li>Documented workflows for reproducible analysis</li>
-<li>A Discussion Forum for questions and troubleshooting</li>
-<li>A Show and Tell space to share successes, lessons, and analyses</li>
+<li><a href="https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations">Documented workflows</a> for reproducible analysis</li>
+<li>A <a href="https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions">Discussion Forum</a> for questions and troubleshooting</li>
+<li>A <a href="https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions/categories/show-and-tell">Show and Tell space</a> to share successes, lessons, and analyses</li>
 </ul>
-<p>We encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this is a place to learn and build together.</p>
+<p>We encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this is a place to learn and build together. Check out the <a href="https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html">Contribution Guidelines</a> to see how you can get involved.</p>
 </section>
 <section id="when" class="level3">
 <h3 class="anchored" data-anchor-id="when"><strong>WHEN</strong></h3>
@@ -164,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="where" class="level3">
 <h3 class="anchored" data-anchor-id="where"><strong>WHERE</strong></h3>
-<p>All of our code, discussion forums, and resources live on GitHub, so anyone can access, use, and build on them from anywhere in the world.</p>
+<p>All of our code, discussion forums, and resources live on <a href="https://github.com/County-Health-Rankings-and-Roadmaps">GitHub</a>, so anyone can access, use, and build upon them from anywhere in the world.</p>
 </section>
 <section id="why" class="level3">
 <h3 class="anchored" data-anchor-id="why"><strong>WHY</strong></h3>

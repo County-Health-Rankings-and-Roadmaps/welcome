@@ -11,15 +11,17 @@ Our mission is to: 
 -   Support transparent, open methods and reproducible workflows 
 -   Build a community-based effort to continue producing CHRR measures beyond 2026 
 
-Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings-and-roadmaps.github.io/welcome/chrr_archives.html) will be available to current CHR&R data users including:
+Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings-and-roadmaps.github.io/welcome/archives.html) will be available to current CHR&R data users including:
 
 -   CHR&R datasets from 2010 through 2025
 -   A repository of code used to calculate CHR&R measures
 -   Methods, source documentation, data tools, and more
 
-New features to be added throughout 2026 include:
+New features to be finalized throughout 2026 include:
 
 -   [**County Health Snapshots**](https://countyhealthrankings.shinyapps.io/snapshot/)
-    -   An interactive app for viewing and downloading state-and county-level data for measures of Population Health and Well-being and Community Conditions based on the UWPHI model of health. Snapshots will facilitate quick viewing of health measures without requiring data or programming expertise.
--   [**CHR&R Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/chrr_opensource.html)
-    -   A community-driven effort to extend CHR&R data into 2027 and beyond
+    -   This interactive app is currently in development. It is useful for viewing and downloading state-and county-level data for measures of Population Health and Well-being and Community Conditions based on the [UWPHI model of health](https://uwphi.pophealth.wisc.edu/chrr/). County health snapshots facilitate quick viewing of health measures without requiring data or programming expertise.
+-   [**County Health Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/community.html)
+    -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our About page to learn more.
+
+![place holder logo](images/choplogo_gpt_nobackground.png){fig-align="center" width="525"}
