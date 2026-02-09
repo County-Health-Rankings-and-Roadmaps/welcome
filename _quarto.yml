@@ -1,7 +1,9 @@
 project:
   type: website
   output-dir: docs 
-
+navbar:
+  background: transparent
+  collapse: true 
 
 format:
   html:

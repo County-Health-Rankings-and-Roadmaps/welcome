@@ -176,6 +176,7 @@ body {
   align-items: center;
   gap: 1.5rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Navbar logo */
@@ -236,6 +237,22 @@ body {
 }
 
 
+@media (max-width: 700px) {
+  .navbar-inner {
+    justify-content: center;  /* center items on small screens */
+    gap: 0.8rem;             /* reduce spacing */
+  }
+
+  .navbar a {
+    font-size: 0.9rem;       /* slightly smaller links */
+    text-align: center;
+    display: block;           /* each link on its own line if needed */
+  }
+
+  .navbar .navbar-logo {
+    height: 35px;             /* slightly smaller on mobile */
+  }
+}
 
 
 /* End of styles */
