@@ -124,4 +124,62 @@ a, .btn, .site-nav a { transition: color 160ms ease, transform 160ms ease; }
   .hero { padding: 1rem; }
 }
 
+
+/* =========================================================
+   GLOBAL FULL-WIDTH HEADER + NAV LAYOUT
+   ========================================================= */
+
+/* Ensure header + navbar span full width */
+.site-header,
+.navbar,
+.navbar-container,
+.page-columns {
+  max-width: 100% !important;
+}
+
+/* Remove unwanted body spacing above header */
+body {
+  margin: 0;
+  padding-top: 0;
+}
+
+/* =========================================================
+   TOP ORANGE HEADER (ALWAYS FIRST)
+   ========================================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background-color: var(--brand-orange);
+  color: #ffffff;
+  padding: 1.25rem 2rem;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* No links expected here, but just in case */
+.site-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* =========================================================
+   STICKY BLUE NAV BAR (SECOND ROW)
+   ========================================================= */
+
+.navbar {
+  position: sticky;
+  top: 72px; /* height of orange header — adjust if needed */
+  z-index: 999;
+
+  background-color: var(--brand-blue) !important;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+
 /* End of styles */
