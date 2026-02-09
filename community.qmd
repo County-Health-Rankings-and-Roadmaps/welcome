@@ -30,4 +30,4 @@ All of our code, discussion forums, and resources live on [GitHub](https://githu
 
 ### **WHY**
 
-Users of CHR&R data have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and alive for current and future use. Our goal is to empower the community to continue producing, updating, and extending these important measures independently.
+Users of CHR&R data have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and alive for current and future use. Our goal is to empower the community to continue producing, updating, and extending these important measures of health independently.

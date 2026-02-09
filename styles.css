@@ -243,20 +243,24 @@ body {
 }
 
 
-@media (max-width: 700px) {
-  .navbar-inner {
-    justify-content: center;  /* center items on small screens */
-    gap: 0.8rem;             /* reduce spacing */
+/* Mobile (vertical) */
+@media (max-width: 768px) {
+  .navbar .navbar-inner {
+    flex-direction: column;   /* stack links vertically */
+    align-items: flex-start;  /* align everything to the left */
+    gap: 0.8rem;              /* smaller spacing */
+    padding: 1rem;            /* more padding for touch targets */
   }
 
-  .navbar a {
-    font-size: 0.9rem;       /* slightly smaller links */
-    text-align: center;
-    display: block;           /* each link on its own line if needed */
+  /* Make links full-width for easier tapping */
+  .navbar .navbar-inner a {
+    width: 100%;
   }
 
-  .navbar .navbar-logo {
-    height: 35px;             /* slightly smaller on mobile */
+  /* Optional: scale logo on mobile */
+  .navbar .site-logo img {
+    height: 60px; /* smaller than desktop if needed */
+    width: auto;
   }
 }
 
