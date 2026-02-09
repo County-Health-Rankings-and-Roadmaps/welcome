@@ -14,20 +14,6 @@
     "text": "COMING SUMMER 2026\n\n\nWHO\nResearchers, public health practitioners, data analysts, and anyone who uses county-level health data for research, policy, or community impact. If you care about transparent, reproducible, and accessible public health data, we invite you to join our community.\n\n\nWHAT\nThe CHR&R Open-source Project is a collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level health measures. Community members have access to:\n\nDocumented workflows for reproducible analysis\nA Discussion Forum for questions and troubleshooting\nA Show and Tell space to share successes, lessons, and analyses\n\nWe encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this is a place to learn and build together.\n\n\nWHEN\nThe project is expected to be fully launched by Summer 2026, and the community will continue to grow and evolve as new health datasets become available.\n\n\nWHERE\nAll of our code, discussion forums, and resources live on GitHub, so anyone can access, use, and build on them from anywhere in the world.\n\n\nWHY\nUsers of CHR&R data have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and alive for current and future use. Our goal is to empower the community to continue producing, updating, and extending these important measures independently."
   },
   {
-    "objectID": "chrr_archives.html",
-    "href": "chrr_archives.html",
-    "title": "The CHR&R Archives",
-    "section": "",
-    "text": "CHR&R served as a trusted national resource for understanding the factors that influence health and equity across U.S. communities. Through annually updated measures, transparent methods, and accessible data tools, CHR&R helped local leaders, researchers, and residents explore how where we live, learn, work, and play shapes health outcomes.\nWith the planned retirement of the CHR&R website at the end of December 2026, many of the data-related materials that supported this work will no longer be hosted on the primary site. Recognizing the enduring value of these materials, this archive aims to preserve them for continued use by public health practitioners, analysts, students, and anyone interested in community health research."
-  },
-  {
-    "objectID": "chrr_archives.html#resources",
-    "href": "chrr_archives.html#resources",
-    "title": "The CHR&R Archives",
-    "section": "Resources",
-    "text": "Resources\nCounty Health Rankings & Roadmaps Zenodo Repositories\n\nMeasure calculation codes: scripts and workflows to calculate all CHR&R measure from the latest annual release\nDatasets: Versioned releases of CHR&R datasets for each year (2010-2025), each with a DOI for citation and direct download. There are two primary repositories: one contains human readable Excel files and the other contains relational files with metadata\nMethods and source documentation: static archive of measure definitions, source descriptions, and calculation notes from past releases\n\ncountyhealthR(currently available on GitHub; expected on CRAN by April 2026): is an R package that enables programmatic, reproducible access to archived CHR&R data from 2010 to 2025.\nPublications and White Papers:  Past technical reports and methods papers describing the CHR&R model, measures, and methods.\nWhat Works for Health Archives (LINK COMING SOON): Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Us",
@@ -47,13 +33,6 @@
     "title": "The CHR&R Archives",
     "section": "Resources",
     "text": "Resources\nCounty Health Rankings & Roadmaps Zenodo Repositories\n\nMeasure calculation codes: scripts and workflows to calculate all CHR&R measure from the latest annual release\nDatasets: Versioned releases of CHR&R datasets for each year (2010-2025), each with a DOI for citation and direct download. There are two primary repositories: one contains human readable Excel files and the other contains relational files with metadata\nMethods and source documentation: static archive of measure definitions, source descriptions, and calculation notes from past releases\n\ncountyhealthR(currently available on GitHub; expected on CRAN by April 2026): is an R package that enables programmatic, reproducible access to archived CHR&R data from 2010 to 2025.\nPublications and White Papers:  Past technical reports and methods papers describing the CHR&R model, measures, and methods.\nWhat Works for Health Archives (LINK COMING SOON): Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025."
-  },
-  {
-    "objectID": "chrr_opensource.html#about-chop",
-    "href": "chrr_opensource.html#about-chop",
-    "title": "The CHR&R Open-source Community",
-    "section": "About CHOP",
-    "text": "About CHOP\n\nAbout CHR&R\nThe County Health Rankings & Roadmaps (CHR&R) has drawn attention to why there are differences in health within and across communities. The program highlighted policies and practices that can help everyone be as healthy as possible. CHR&R aimed to grow a shared understanding of health, equity and the power of communities to improve health for all. This work was rooted in a long-term vision where all people and places have what they need to thrive. \nCHR&R was committed to creating resources and tools that support community-led efforts to accurately diagnose core problems, understand and account for historical context and implement evidence-informed solutions. CHR&R was proud to provide a snapshot of the health of nearly every county in the nation and trove of resources help improve conditions for all.\nThe CHR&R program and website will officially end in…\n\n\nContact"
   },
   {
     "objectID": "contribute.html",

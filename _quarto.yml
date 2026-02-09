@@ -22,3 +22,4 @@ format:
     css: styles.css
     include-in-header:
       - _includes/header.html
+    output-dir: _site
