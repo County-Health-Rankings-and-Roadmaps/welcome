@@ -243,24 +243,30 @@ body {
 }
 
 
-/* Mobile (vertical) */
+/* Mobile (vertical navbar with logo on top) */
 @media (max-width: 768px) {
   .navbar .navbar-inner {
-    flex-direction: column;   /* stack links vertically */
-    align-items: flex-start;  /* align everything to the left */
-    gap: 0.8rem;              /* smaller spacing */
-    padding: 1rem;            /* more padding for touch targets */
+    flex-direction: column;      /* stack logo + links */
+    align-items: center;         /* center everything horizontally */
+    gap: 0.8rem;                 /* space between rows */
+    padding: 1rem;
   }
 
-  /* Make links full-width for easier tapping */
-  .navbar .navbar-inner a {
-    width: 100%;
+  /* Logo on its own row, centered */
+  .navbar .site-logo {
+    margin-bottom: 0.8rem;       /* space below logo */
   }
 
-  /* Optional: scale logo on mobile */
   .navbar .site-logo img {
-    height: 60px; /* smaller than desktop if needed */
+    height: 80px;               /* adjust to desired mobile size */
     width: auto;
+  }
+
+  /* Links stacked vertically */
+  .navbar .navbar-inner a {
+    width: 100%;                /* optional: full width for easier tapping */
+    text-align: center;         /* center the text under logo */
+    margin: 0.2rem 0;           /* spacing between links */
   }
 }
 
