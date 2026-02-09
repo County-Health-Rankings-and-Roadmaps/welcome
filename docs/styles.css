@@ -163,10 +163,10 @@ body {
   top: 72px; /* adjust to height of orange bar */
   z-index: 999;
   background-color: var(--brand-blue);
-  padding: 0.5rem 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: nowrap; /* space between logo and links */
 }
 
@@ -181,10 +181,16 @@ body {
 
 /* Navbar logo */
 .navbar .site-logo img {
-  height: 90px; /* adjust as needed */
+  height: 100%; /* adjust as needed */
+  max-height: 80px; 
   width: auto;
   display: inline-block;
   margin-right: 1rem;
+  flex-shrink: 0;
+}
+/* Navbar links */
+.navbar a {
+  white-space: nowrap; /* prevent breaking mid-word */
 }
 
 /* Navbar links container */
