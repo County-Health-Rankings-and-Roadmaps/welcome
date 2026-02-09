@@ -1,0 +1,21 @@
+---
+title: "About Us"
+format: html
+editor: visual
+---
+
+### About CHOP 
+
+The CHR&R Open-source Project is a collaborative space for researchers, public health practitioners, and data-users who care about keeping county-level health data transparent, reproducible, and available for public use, now and into the future. Our goal is to empower users to take our validated code, methods, and inputs and use them to calculate, update, and extend health measures as new data become available.  
+
+Community members can expect documented workflows, opportunities to ask questions and troubleshoot in the Discussion Forum, and a supportive “Show and Tell” space to share wins, analyses, and lessons learned. We encourage dissemination and public sharing of derivative data products and tools, and we see reuse, adaptation, and iteration as signs of a healthy ecosystem. Whether you’re reproducing existing measures, refreshing them for future years, or building something entirely new, you’re invited to learn and build with us. Let’s keep this important public data alive together!
+
+### About CHR&R 
+
+The County Health Rankings & Roadmaps (CHR&R) has drawn attention to why there are differences in health within and across communities. The program highlighted policies and practices that can help everyone be as healthy as possible. CHR&R aimed to grow a shared understanding of health, equity and the power of communities to improve health for all. This work was rooted in a long-term vision where all people and places have what they need to thrive. 
+
+CHR&R was committed to creating resources and tools that support community-led efforts to accurately diagnose core problems, understand and account for historical context and implement evidence-informed solutions. CHR&R was proud to provide a snapshot of the health of nearly every county in the nation and trove of resources help improve conditions for all.
+
+The CHR&R program and website will officially end in December 2026.
+
+### Contact 

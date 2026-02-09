@@ -1,32 +1,24 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "Welcome to the County Health Open-Source Community"
+  title: "County Health Open-source Project"
   navbar:
+    background: transparent
+    collapse: false
     left:
-    - text: "<span title='Learn more about how you can get involved!'>Contribution Guidelines</span>"
-      href: contribute.qmd
-    - text: "<span title='Community forum including general Q&A and Show & Tell'>Discussion Forum</span>"
-      href: "https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions"
-      target: _blank
-    - text: "<span title='Scripts, inputs, and raw data for calculating CHR&R measures of health'>Measure Calculations</span>"
-      href: "https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations"
-      target: _blank
-    - text: "<span title='Interactive tool for viewing county-level data'>County Snapshot</span>"
-      href: "https://countyhealthrankings.shinyapps.io/snapshot/"
-      target: _blank
-    - text: "<span title='R package for programmatic access to county-level health data'>countyhealthR Package</span>"
-      href: "https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR"
-      target: _blank
-    - text: "<span title='Downloadable and relational county-level datasets'>Data Archives (Zenodo)</span>"
-      href: "https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10"
-      target: _blank
-
-
+      - text: "County Health Snapshots"
+        href: snapshots.qmd
+      - text: "The CHR&R Archives"
+        href: archives.qmd
+      - text: "CHR&R Open-source Community"
+        href: community.qmd
+      - text: "About Us"
+        href: about.qmd
 
 format:
   html:
-    css: styles.css # custom orange and blue colors
-    toc: false
+    theme: default
+    css: styles.css
+    include-in-header:
+      - _includes/header.html
