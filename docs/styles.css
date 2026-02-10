@@ -4,19 +4,24 @@ Place this file in your project root (next to _quarto.yml) or in a `styles/` fol
 Enable it by adding under `format: html:` in `_quarto.yml`: `css: styles.css` (or `styles/styles.css`).
 */
 
-/* Import a clean sans-serif font */
+
+/* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 :root {
-  --brand-blue: #0B3D91;      /* primary */
-  --brand-orange: #FF8A00;    /* accent */
-  --bg: #F5F7FA;              /* page background */
-  --surface: #FFFFFF;         /* card / surface */
-  --text: #202428;            /* body text */
-  --muted: #6B7280;           /* secondary text */
-  --focus: #1F6A9A;           /* focus ring, subtle */
-  --radius: 8px;
+  /* CHR&R-inspired palette */
+  --brand-blue: #0B2240;          /* primary headings, footer */
+  --blue: #007ACC;          /* links, buttons */
+  --light-blue: #E6F3FF;    /* soft backgrounds */
+  --brand-orange: #F05A28;           /* emphasis / alerts */
+  --bg: #F6F6F6;            /* page background */
+  --surface: #FFFFFF;      /* cards */
+  --text: #1F2933;         /* body text */
+  --muted: #6B7280;        /* secondary text */
+  --border: #E5E7EB;
+  --radius: 6px;
 }
+
 
 /* Base */
 html, body {
@@ -34,21 +39,29 @@ h1, h2, h3, h4 {
   font-weight: 600;
 }
 
-/* Navbar / site header */
-.site-header, .navbar, header.site-header {
+.site-header {
   background-color: var(--brand-blue);
-  color: #fff;
-}
-.site-header a, .navbar a {
-  color: #fff;
-}
-.site-header a:hover, .navbar a:hover {
-  color: var(--brand-orange);
+  color: #ffffff;
 }
 
+.navbar {
+  background-color: var(--brand-orange);
+}
+
+
 /* Links */
-a { color: var(--brand-blue); text-decoration: none; }
-a:hover { color: var(--brand-orange); text-decoration: underline; }
+.navbar a {
+  color: #ffffff;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--brand-blue);
+  text-decoration: underline;
+}
+
 
 /* Buttons */
 .btn, .button, .btn-primary {
@@ -59,69 +72,35 @@ a:hover { color: var(--brand-orange); text-decoration: underline; }
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 .btn-primary {
-  background: linear-gradient(180deg, var(--brand-orange),  #FF8A00;);
+  background: linear-gradient(180deg, var(--brand-blue),  #FF8A00);
   color: #fff;
   border: none;
-  box-shadow: 0 6px 18px rgba(11,61,145,0.08);
+  box-shadow: 0 6px 18px var(--bg);
 }
 .btn-primary:hover { transform: translateY(-1px); filter: brightness(0.98); }
 .btn-outline {
-  background: transparent; border: 1px solid rgba(11,61,145,0.10); color: var(--brand-blue);
+  background: transparent; border: 1px solid var(--light-blue); color: var(--brand-orange);
 }
 
 /* Cards and surfaces */
 .card, .card-block, .quarto-card {
   background: var(--surface);
   border-radius: var(--radius);
-  box-shadow: 0 6px 18px rgba(11,61,145,0.04);
+  box-shadow: 0 6px 18px var(--bg);
   padding: 1.25rem;
 }
 
 /* Hero */
 .site-hero, .hero {
-  background: linear-gradient(90deg, rgba(11,61,145,0.03), transparent);
-  border-left: 4px solid var(--brand-orange);
+  background: linear-gradient(90deg, var(--bg), transparent);
+  border-left: 4px solid var(--brand-blue);
   padding: 2rem;
   border-radius: 12px;
 }
 
-/* Footer */
-footer {
-  background: linear-gradient(180deg, rgba(11,61,145,0.03), transparent);
-  color: var(--muted);
-  padding: 2rem 0;
-}
-
-/* Code blocks */
-pre, code, .highlight {
-  background: #F2F6FF; /* subtle blue tint */
-  border-radius: 6px;
-  padding: 0.6rem;
-}
-
-/* Accessibility: focus states */
 :focus {
-  outline: 3px solid rgba(31,106,154,0.18);
+  outline: 3px solid var(--light-blue);
   outline-offset: 2px;
-}
-
-/* Badges and accents */
-.badge, .label {
-  background: rgba(255,138,0,0.09);
-  color: var(--brand-orange);
-  padding: 0.2rem 0.5rem; border-radius: 999px; font-weight: 600;
-}
-
-/* Small polish */
-img { max-width: 100%; height: auto; border-radius: 6px; }
-.card img { border-radius: 6px; }
-
-/* Subtle transitions for interactive elements */
-a, .btn, .site-nav a { transition: color 160ms ease, transform 160ms ease; }
-
-/* Responsive tweak for narrower content */
-@media (max-width: 700px) {
-  .hero { padding: 1rem; }
 }
 
 
@@ -148,7 +127,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: var(--brand-orange);
+  background-color: var(--brand-blue);
   color: #ffffff;
   padding: 1.25rem 2rem;
   text-align: center;
@@ -160,14 +139,14 @@ body {
 /* Blue navbar sticky below orange header */
 .navbar {
   position: sticky;
-  top: 72px; /* adjust to height of orange bar */
+  top: 100px; /* adjust to height of orange bar */
   z-index: 999;
-  background-color: var(--brand-blue);
-  padding: 1.5rem 2rem;
+  background-color: var(--brand-orange);
+  padding: 1rem 1rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  flex-wrap: nowrap; /* space between logo and links */
+  flex-wrap: nowrap; /* space between links */
 }
 
 /* Inner container */
@@ -179,15 +158,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Navbar logo */
-.navbar .site-logo img {
-  height: 100%; /* adjust as needed */
-  max-height: 80px; 
-  width: auto;
-  display: inline-block;
-  margin-right: 1rem;
-  flex-shrink: 0;
-}
+
 /* Navbar links */
 .navbar a {
   white-space: nowrap; /* prevent breaking mid-word */
@@ -202,70 +173,58 @@ body {
 
 /* Navbar badges */
 .navbar .badge-dev {
-  color: #FF8A00;
+  color: var(--brand-blue);
   font-size: 0.8em;
   font-weight: 600;
   display: block;
 }
 
-/* Emphasized CHOP letters in title */
-.site-header .chop-letter {
-  font-weight: 800;
-  font-size: 2.2rem;
-  letter-spacing: 0.05em;
-  margin-right: 0.05em;
+
+/* Make the header content align with navbar */
+.site-header {
+  background-color: var(--brand-blue);
+  padding: 0.75rem 0;  /* vertical padding only */
 }
 
-/* Base text in orange header */
-.site-header {
-  font-size: 1.5rem;
-  line-height: 1.2;
-}
-
-.site-header {
+.header-inner {
+  max-width: 1200px;           /* same max width as navbar */
+  margin: 0 auto;              /* center the container horizontally */
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap; /* mobile-friendly */
+  gap: 1rem;
 }
 
-/* Extra space after CHOP: */
+/* Logo sizing */
+.site-logo {
+  height: 90px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* Title styling */
 .chop-acronym {
-  margin-right: 1rem; /* 👈 adjust to taste */
-}
-
-/* Navbar logo fixed size */
-.navbar .navbar-logo {
-  height: 40px;       /* adjust as needed */
-  max-height: 40px;   /* enforce max */
-  width: auto;        /* keep aspect ratio */
-  display: block;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 
-/* Mobile (vertical navbar with logo on top) */
-@media (max-width: 768px) {
+
+
+/* Mobile (vertical navbar) */
+@media (max-width: 500px) {
   .navbar .navbar-inner {
-    flex-direction: column;      /* stack logo + links */
+    flex-direction: column;      /* stack */
     align-items: center;         /* center everything horizontally */
     gap: 0.8rem;                 /* space between rows */
     padding: 1rem;
   }
 
-  /* Logo on its own row, centered */
-  .navbar .site-logo {
-    margin-bottom: 0.8rem;       /* space below logo */
-  }
-
-  .navbar .site-logo img {
-    height: 80px;               /* adjust to desired mobile size */
-    width: auto;
-  }
-
   /* Links stacked vertically */
   .navbar .navbar-inner a {
     width: 100%;                /* optional: full width for easier tapping */
-    text-align: center;         /* center the text under logo */
+    text-align: center;         
     margin: 0.2rem 0;           /* spacing between links */
   }
 }
