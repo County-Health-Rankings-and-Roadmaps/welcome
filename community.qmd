@@ -1,5 +1,5 @@
 ---
-title: "The CHR&R Open-source Community"
+title: "County Health Open-source Community"
 format: html
 editor: visual
 ---
