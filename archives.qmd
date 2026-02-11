@@ -8,7 +8,7 @@ CHR&R served as a trusted national resource for understanding the factors that i
 
 With the planned retirement of the CHR&R website at the end of December 2026, many of the data-related materials that supported this work will no longer be hosted on the primary site. Recognizing the enduring value of these materials, this archive aims to preserve them for continued use by public health practitioners, analysts, students, and anyone interested in community health research. 
 
-## Resources 
+## Resources
 
 [**County Health Rankings & Roadmaps Zenodo Repositories**](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest)
 
@@ -20,4 +20,4 @@ With the planned retirement of the CHR&R website at the end of December 2026, ma
 
 [**Publications and White Papers**:](https://www.countyhealthrankings.org/findings-and-insights/scholarly-publications) <!--# links to CHRR website for now but later will link to a NCBI (or other) collection --> Past technical reports and methods papers describing the CHR&R model, measures, and methods.
 
-**What Works for Health Archives** <span class='badge-dev'></span>(COMING SOON)</span>: Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.
+**What Works for Health Archives** (COMING SOON)</span>: Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.

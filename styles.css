@@ -122,7 +122,7 @@ body {
   padding-top: 0;
 }
 
-/* Top orange header — already in your CSS */
+/* Top blue header */
 .site-header {
   position: sticky;
   top: 0;
@@ -134,6 +134,7 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   letter-spacing: 0.3px;
+  text-align: left;
 }
 
 /* Blue navbar sticky below orange header */
@@ -227,6 +228,44 @@ body {
     text-align: center;         
     margin: 0.2rem 0;           /* spacing between links */
   }
+}
+
+
+/* Remove ALL underline behavior in header link */
+.site-header a,
+.home-link,
+.home-link:hover,
+.home-link:focus,
+.home-link:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* Header layout */
+.home-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Title container */
+.site-title {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+/* Top line */
+.title-line-1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Bottom line */
+.title-line-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.9;
 }
 
 
