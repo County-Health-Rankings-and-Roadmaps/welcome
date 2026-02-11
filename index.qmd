@@ -22,6 +22,6 @@ New features to be finalized throughout 2026 include:
 -   [**County Health Snapshots**](https://countyhealthrankings.shinyapps.io/snapshot/)
     -   This interactive app is currently in development. It is useful for viewing and downloading state-and county-level data for measures of Population Health and Well-being and Community Conditions based on the [UWPHI model of health](https://uwphi.pophealth.wisc.edu/chrr/). County health snapshots facilitate quick viewing of health measures without requiring data or programming expertise.
 -   [**County Health Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/community.html)
-    -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our About page to learn more.
+    -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to learn more.
 
 ![place holder logo](images/choplogo_gpt_nobackground.png){fig-align="center" width="525"}

@@ -8,6 +8,7 @@ navbar:
 
 format:
   html:
+    favicon: choplogo_gpt_nobackground.png 
     theme: cosmo
     css: styles.css
     include-in-header:

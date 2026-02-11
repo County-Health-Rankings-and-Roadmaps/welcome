@@ -98,10 +98,13 @@ h1, h2, h3, h4 {
   border-radius: 12px;
 }
 
-:focus {
-  outline: 3px solid var(--light-blue);
+a:focus,
+button:focus,
+.home-link:focus {
+  outline: 2px dashed var(--brand-orange); /* subtle instead of big blue box */
   outline-offset: 2px;
 }
+
 
 
 /* =========================================================
@@ -217,7 +220,7 @@ body {
 @media (max-width: 500px) {
   .navbar .navbar-inner {
     flex-direction: column;      /* stack */
-    align-items: center;         /* center everything horizontally */
+    align-items: left;         /* center everything horizontally */
     gap: 0.8rem;                 /* space between rows */
     padding: 1rem;
   }
@@ -225,10 +228,38 @@ body {
   /* Links stacked vertically */
   .navbar .navbar-inner a {
     width: 100%;                /* optional: full width for easier tapping */
-    text-align: center;         
+    text-align: left;         
     margin: 0.2rem 0;           /* spacing between links */
   }
 }
+
+/* =====================================
+   Responsive Header (Mobile)
+   ===================================== */
+
+@media (max-width: 768px) {
+
+  .header-inner {
+    padding: 0 1rem;
+    gap: 0.75rem;
+  }
+
+  /* Scale logo down */
+  .site-logo {
+    height: 55px;   /* smaller but still visible */
+  }
+
+  /* Scale title text */
+  .title-line-1 {
+    font-size: 1.2rem;
+  }
+
+  .title-line-2 {
+    font-size: 0.95rem;
+  }
+
+}
+
 
 
 /* Remove ALL underline behavior in header link */
