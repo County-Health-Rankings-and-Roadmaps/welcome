@@ -2,26 +2,32 @@
 title: "County Health Open-Source Project"
 ---
 
-Welcome to the **County Health Open-Source Project (CHOP)**, a community-driven effort to preserve, update, and extend the **County Health Rankings & Roadmaps (CHR&R)** data after the program concludes in December 2026. For more than a decade, CHR&R has helped communities understand the factors that shape health and equity. This project ensures that its data, methods, and tools remain accessible long into the future. 
+Welcome to the **County Health Open-Source Project (CHOP)**, a community-driven effort to preserve, update, and extend the **County Health Rankings & Roadmaps (CHR&R)** data after the program concludes in December 2026. For more than a decade, CHR&R has helped communities understand the factors that shape health and equity. This project ensures that its data, methods, and tools remain accessible. 
 
-Our mission is to: 
+## Our Mission
 
 -   Keep 15+ years of county health data accessible 
--   Provide user-friendly ways to explore county-level health information 
+-   Provide user-friendly ways to explore county-level information on health and the conditions that shape health 
 -   Support transparent, open methods and reproducible workflows 
--   Build a community-based effort to continue producing CHRR measures beyond 2026 
+-   Build a community-based effort to continue producing CHR&R measures beyond 2026 
 
-Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings-and-roadmaps.github.io/welcome/archives.html) will be available to current CHR&R data users including:
+## Data Availability
+
+Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings-and-roadmaps.github.io/welcome/archives.html) will include:
 
 -   CHR&R datasets from 2010 through 2025
 -   A repository of code used to calculate CHR&R measures
 -   Methods, source documentation, data tools, and more
 
-New features to be finalized throughout 2026 include:
+## New Features 
+
+Additional tools to be finalized throughout 2026 include:
 
 -   [**County Health Snapshots**](https://countyhealthrankings.shinyapps.io/snapshot/)
-    -   This interactive app is currently in development. It is useful for viewing and downloading state-and county-level data for measures of Population Health and Well-being and Community Conditions based on the [UWPHI model of health](https://uwphi.pophealth.wisc.edu/chrr/). County health snapshots facilitate quick viewing of health measures without requiring data or programming expertise.
+    -   A user-friendly dashboard to view and download state and county-level data produced by CHR&R
 -   [**County Health Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/community.html)
     -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to learn more.
 
-![place holder logo](images/choplogo_gpt_nobackground.png){fig-align="center" width="525"}
+[Countyhealthrankings.org](https://www.countyhealthrankings.org/) will be available through December 2026. We encourage users to download datasets and technical documentation available on our website before the end of the year. This page will be updated regularly with additional resources.
+
+These resources have been developed and curated by County Health Rankings & Roadmaps team members.
