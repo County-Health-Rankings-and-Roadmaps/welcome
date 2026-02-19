@@ -1,0 +1,21 @@
+---
+title: "County Health Snapshots"
+format: html
+editor: visual
+---
+
+## *COMING SUMMER 2026*
+
+### What to expect
+
+View and download state- and county-level data for measures of Population Health and Well-being and Community Conditions based on the UWPHI Model of Population Health. Snapshots are easy to use and don't require data or programming expertise.
+
+### Preview
+
+We’re currently developing this tool, and it is not yet final. For now, you can view a preview below or explore it yourself [here](https://countyhealthrankings.shinyapps.io/snapshot/).
+
+We welcome your help in troubleshooting and improving this tool. You can see planned updates and suggest changes on the [app’s GitHub Issues page](https://github.com/County-Health-Rankings-and-Roadmaps/snapshot/issues).
+
+Thank you for your collaboration!
+
+![Preview of the County Snapshot, coming summer 2026](images/snapshot_preview.png){fig-align="center"}

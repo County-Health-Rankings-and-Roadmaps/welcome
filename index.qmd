@@ -28,6 +28,8 @@ Additional tools to be finalized throughout 2026 include:
 -   [**County Health Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/community.html)
     -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to learn more.
 
+------------------------------------------------------------------------
+
 [Countyhealthrankings.org](https://www.countyhealthrankings.org/) will be available through December 2026. We encourage users to download datasets and technical documentation available on our website before the end of the year. This page will be updated regularly with additional resources.
 
 These resources have been developed and curated by County Health Rankings & Roadmaps team members.
