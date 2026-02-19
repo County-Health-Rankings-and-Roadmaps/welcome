@@ -16,6 +16,6 @@ We’re currently developing this tool, and it is not yet final. For now, you ca
 
 We welcome your help in troubleshooting and improving this tool. You can see planned updates and suggest changes on the [app’s GitHub Issues page](https://github.com/County-Health-Rankings-and-Roadmaps/snapshot/issues).
 
-Thank you for your collaboration!
+Thank you for your collaboration and stay tuned!
 
 ![Preview of the County Snapshot, coming summer 2026](images/snapshot_preview.png){fig-align="center"}
