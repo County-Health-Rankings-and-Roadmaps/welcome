@@ -23,7 +23,7 @@ Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings
 
 Additional tools to be finalized throughout 2026 include:
 
--   [**County Health Snapshots**](https://countyhealthrankings.shinyapps.io/snapshot/)
+-   [**County Health Snapshots**](https://county-health-rankings-and-roadmaps.github.io/welcome/snapshot.html)
     -   A user-friendly dashboard to view and download state and county-level data produced by CHR&R
 -   [**County Health Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/community.html)
     -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to learn more.

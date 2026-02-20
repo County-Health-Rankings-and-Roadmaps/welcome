@@ -4,14 +4,14 @@
     "href": "snapshot.html",
     "title": "County Health Snapshots",
     "section": "",
-    "text": "View and download state- and county-level data for measures of Population Health and Well-being and Community Conditions based on the UWPHI Model of Population Health. Snapshots are easy to use and don’t require data or programming expertise.\n\n\n\nWe’re currently developing this tool, and it is not yet final. For now, you can view a preview below or explore it yourself here.\nWe welcome your help in troubleshooting and improving this tool. You can see planned updates and suggest changes on the app’s GitHub Issues page.\nThank you for your collaboration and stay tuned!\n\n\n\nPreview of the County Snapshot, coming summer 2026"
+    "text": "View and download state- and county-level data for measures of Population Health and Well-being and Community Conditions based on the UWPHI Model of Population Health. Snapshots are easy to use and don’t require data or programming expertise.\n\n\n\nWe’re currently developing this tool, and it is not yet final. For now, you can view a preview below or explore it yourself here.\nWe welcome your help troubleshooting and improving this tool. You can suggest changes and view planned updates on the app’s GitHub Issues page.\nThank you for your collaboration, and stay tuned!\n\n\n\nPreview of the County Snapshot, coming summer 2026"
   },
   {
     "objectID": "snapshot.html#coming-summer-2026",
     "href": "snapshot.html#coming-summer-2026",
     "title": "County Health Snapshots",
     "section": "",
-    "text": "View and download state- and county-level data for measures of Population Health and Well-being and Community Conditions based on the UWPHI Model of Population Health. Snapshots are easy to use and don’t require data or programming expertise.\n\n\n\nWe’re currently developing this tool, and it is not yet final. For now, you can view a preview below or explore it yourself here.\nWe welcome your help in troubleshooting and improving this tool. You can see planned updates and suggest changes on the app’s GitHub Issues page.\nThank you for your collaboration and stay tuned!\n\n\n\nPreview of the County Snapshot, coming summer 2026"
+    "text": "View and download state- and county-level data for measures of Population Health and Well-being and Community Conditions based on the UWPHI Model of Population Health. Snapshots are easy to use and don’t require data or programming expertise.\n\n\n\nWe’re currently developing this tool, and it is not yet final. For now, you can view a preview below or explore it yourself here.\nWe welcome your help troubleshooting and improving this tool. You can suggest changes and view planned updates on the app’s GitHub Issues page.\nThank you for your collaboration, and stay tuned!\n\n\n\nPreview of the County Snapshot, coming summer 2026"
   },
   {
     "objectID": "contribute.html",
@@ -65,14 +65,14 @@
   {
     "objectID": "archives.html",
     "href": "archives.html",
-    "title": "The CHR&R archives",
+    "title": "The CHR&R Archives",
     "section": "",
     "text": "County Health Rankings & Roadmaps (CHR&R) served as a trusted national resource for understanding what shapes health and equity across U.S. communities. CHR&R data helped local leaders, researchers, and residents explore how where we live, learn, work, and play shapes health outcomes through annually updated measures, transparent methods, and accessible data tools.\nCHR&R resources will not be available on countyhealthrankings.org after December 2026. Recognizing the enduring value of these materials, this archive aims to preserve datasets, code, and technical documentation for continued use by public health practitioners, analysts, students, and anyone interested in community health research."
   },
   {
     "objectID": "archives.html#resources",
     "href": "archives.html#resources",
-    "title": "The CHR&R archives",
+    "title": "The CHR&R Archives",
     "section": "Resources",
     "text": "Resources\nCounty Health Rankings & Roadmaps Zenodo Repositories\n\nMeasure calculation codes: scripts and workflows to calculate most CHR&R measure from the latest annual release\nDatasets: Versioned releases of CHR&R datasets for each year (2010-2025), each with a DOI for citation and direct download. There are two primary repositories: one contains human readable Excel files and the other contains relational files with metadata\nMethods and source documentation: static archive of measure definitions, source descriptions, and calculation notes from past releases\n\ncountyhealthR is an R package that enables programmatic, reproducible access to archived CHR&R data from 2010 to 2025. It is currently available on GitHub, expected on CRAN by April 2026.\nPublications and White Papers:  Past technical reports and methods papers describing the CHR&R model, measures, and methods."
   },
@@ -86,14 +86,14 @@
   {
     "objectID": "community.html",
     "href": "community.html",
-    "title": "County Health open-source community",
+    "title": "County Health Open-source Community",
     "section": "",
     "text": "Researchers, public health practitioners, data analysts, and anyone who uses county-level health data for research, policy, or community impact. Join our community if you care about transparent, reproducible, and accessible public health data.\n\n\n\nA collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level measures of health and the conditions that shape health. Community members have access to:\n\nDocumented workflows for reproducible analysis\nDiscussion Forum for questions and troubleshooting\nShow and Tell space to share successes, lessons, and analyses\n\nWe encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this community is a place to learn and build together. Check out the Contribution Guidelines to see how you can get involved.\n\n\n\nThe project is expected to be fully launched by Summer 2026, and the community will continue to grow and evolve as new health datasets become available.\n\n\n\nAll of our code, discussion forums, and resources live on GitHub. Anyone can access, use, and build upon them.\n\n\n\nCHR&R data-users have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and available for current and future public use. Our goal is to create a community that continues to independently calculate and update these measures when data become available in the absence of CHR&R."
   },
   {
     "objectID": "community.html#coming-summer-2026",
     "href": "community.html#coming-summer-2026",
-    "title": "County Health open-source community",
+    "title": "County Health Open-source Community",
     "section": "",
     "text": "Researchers, public health practitioners, data analysts, and anyone who uses county-level health data for research, policy, or community impact. Join our community if you care about transparent, reproducible, and accessible public health data.\n\n\n\nA collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level measures of health and the conditions that shape health. Community members have access to:\n\nDocumented workflows for reproducible analysis\nDiscussion Forum for questions and troubleshooting\nShow and Tell space to share successes, lessons, and analyses\n\nWe encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this community is a place to learn and build together. Check out the Contribution Guidelines to see how you can get involved.\n\n\n\nThe project is expected to be fully launched by Summer 2026, and the community will continue to grow and evolve as new health datasets become available.\n\n\n\nAll of our code, discussion forums, and resources live on GitHub. Anyone can access, use, and build upon them.\n\n\n\nCHR&R data-users have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and available for current and future public use. Our goal is to create a community that continues to independently calculate and update these measures when data become available in the absence of CHR&R."
   },

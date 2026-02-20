@@ -1,5 +1,5 @@
 ---
-title: "The CHR&R archives"
+title: "The CHR&R Archives"
 format: html
 editor: visual
 ---
