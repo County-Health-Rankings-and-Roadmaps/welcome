@@ -1,23 +1,21 @@
 ---
-title: "The CHR&R Archives"
+title: "The CHR&R archives"
 format: html
 editor: visual
 ---
 
-CHR&R served as a trusted national resource for understanding the factors that influence health and equity across U.S. communities. Through annually updated measures, transparent methods, and accessible data tools, CHR&R helped local leaders, researchers, and residents explore how where we live, learn, work, and play shapes health outcomes. 
+County Health Rankings & Roadmaps (CHR&R) served as a trusted national resource for understanding what shapes health and equity across U.S. communities. CHR&R data helped local leaders, researchers, and residents explore how where we live, learn, work, and play shapes health outcomes through annually updated measures, transparent methods, and accessible data tools. 
 
-With the planned retirement of the CHR&R website at the end of December 2026, many of the data-related materials that supported this work will no longer be hosted on the primary site. Recognizing the enduring value of these materials, this archive aims to preserve them for continued use by public health practitioners, analysts, students, and anyone interested in community health research. 
+CHR&R resources will not be available on countyhealthrankings.org after December 2026. Recognizing the enduring value of these materials, this archive aims to preserve datasets, code, and technical documentation for continued use by public health practitioners, analysts, students, and anyone interested in community health research. 
 
 ## Resources
 
 [**County Health Rankings & Roadmaps Zenodo Repositories**](https://zenodo.org/communities/countyhealthrankingsandroadmaps/records?q=&l=list&p=1&s=10&sort=newest)
 
--   [Measure calculation codes](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations): scripts and workflows to calculate all CHR&R measure from the latest annual release
+-   [Measure calculation codes](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations): scripts and workflows to calculate most CHR&R measure from the latest annual release
 -   Datasets: Versioned releases of CHR&R datasets for each year (2010-2025), each with a DOI for citation and direct download. There are two primary repositories: one contains [human readable Excel files](https://doi.org/10.5281/zenodo.17584420) and the other contains [relational files with metadata](https://doi.org/10.5281/zenodo.18157681)
 -   [Methods and source documentation](https://matchdev.chsra.wisc.edu/admin/rankings/data-entry/measures/index.php): static archive of measure definitions, source descriptions, and calculation notes from past releases
 
 [**countyhealthR**](https://github.com/County-Health-Rankings-and-Roadmaps/countyhealthR) is an R package that enables programmatic, reproducible access to archived CHR&R data from 2010 to 2025. It is currently available on GitHub, expected on CRAN by April 2026.
 
 [**Publications and White Papers**:](https://www.countyhealthrankings.org/findings-and-insights/scholarly-publications) <!--# links to CHRR website for now but later will link to a NCBI (or other) collection --> Past technical reports and methods papers describing the CHR&R model, measures, and methods.
-
-**What Works for Health Archives** (COMING SOON)</span>: Curated, evidence-informed summaries of policies, programs, and strategies shown to improve health and equity, last updated in 2025.

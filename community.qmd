@@ -1,5 +1,5 @@
 ---
-title: "County Health Open-source Community"
+title: "County Health open-source community"
 format: html
 editor: visual
 ---
@@ -8,17 +8,17 @@ editor: visual
 
 ### **WHO**
 
-Researchers, public health practitioners, data analysts, and anyone who uses county-level health data for research, policy, or community impact. If you care about transparent, reproducible, and accessible public health data, we invite you to join our community.
+Researchers, public health practitioners, data analysts, and anyone who uses county-level health data for research, policy, or community impact. Join our community if you care about transparent, reproducible, and accessible public health data.
 
 ### **WHAT**
 
-A collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level health measures. Community members have access to:
+A collaborative space where users can access validated code, methods, and inputs to calculate, update, and extend county-level measures of health and the conditions that shape health. Community members have access to:
 
 -   [Documented workflows](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations) for reproducible analysis
--   A [Discussion Forum](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions) for questions and troubleshooting
--   A [Show and Tell space](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions/categories/show-and-tell) to share successes, lessons, and analyses
+-   [Discussion Forum](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions) for questions and troubleshooting
+-   [Show and Tell space](https://github.com/County-Health-Rankings-and-Roadmaps/county_health_measure_calculations/discussions/categories/show-and-tell) to share successes, lessons, and analyses
 
-We encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this is a place to learn and build together. Check out the [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to see how you can get involved.
+We encourage public sharing, reuse, and adaptation of derivative data products and tools. Whether you’re reproducing existing measures, refreshing them for new years, or building entirely new analyses, this community is a place to learn and build together. Check out the [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to see how you can get involved.
 
 ### **WHEN**
 
@@ -26,8 +26,8 @@ The project is expected to be fully launched by Summer 2026, and the community w
 
 ### **WHERE**
 
-All of our code, discussion forums, and resources live on [GitHub](https://github.com/County-Health-Rankings-and-Roadmaps), so anyone can access, use, and build upon them from anywhere in the world.
+All of our code, discussion forums, and resources live on [GitHub](https://github.com/County-Health-Rankings-and-Roadmaps). Anyone can access, use, and build upon them.
 
 ### **WHY**
 
-Users of CHR&R data have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and alive for current and future use. Our goal is to empower the community to continue producing, updating, and extending these important measures of health independently.
+CHR&R data-users have consistently expressed the importance of keeping these data accessible and usable for research, policy, and community decision-making. By making tools, code, and workflows open-source, we ensure county-level health data remain transparent, reproducible, and available for current and future public use. Our goal is to create a community that continues to independently calculate and update these measures when data become available in the absence of CHR&R.

@@ -6,9 +6,9 @@ editor: visual
 
 ### About CHOP
 
-The County Health Open-source Project is a collaborative space for researchers, public health practitioners, and data-users who care about keeping county-level health data transparent, reproducible, and available for public use, now and into the future. Our goal is to empower users to take our validated code, methods, and inputs and use them to calculate, update, and extend health measures as new data become available.  
+The County Health Open-source Project (CHOP) is a collaborative space for researchers, public health practitioners, and data-users who care about keeping county-level health data transparent, reproducible, and available for public use, now and into the future. Our goal is to create a community that uses CHR&R validated code, methods, and inputs to calculate and update measures when data become available in the absense of CHR&R.
 
-Community members can expect documented workflows, opportunities to ask questions and troubleshoot in the Discussion Forum, and a supportive “Show and Tell” space to share wins, analyses, and lessons learned. We encourage dissemination and public sharing of derivative data products and tools, and we see reuse, adaptation, and iteration as signs of a healthy ecosystem. Whether you’re reproducing existing measures, refreshing them for future years, or building something entirely new, you’re invited to learn and build with us. Let’s keep this important public data alive together!
+Community members can expect documented workflows, opportunities to ask questions and troubleshoot in the Discussion Forum, and a supportive “Show and Tell” space to share wins, analyses, and lessons learned. We encourage dissemination and public sharing of derivative data products and tools, and we see reuse, adaptation, and iteration as signs of a healthy community. Whether you’re reproducing existing measures, refreshing them for future years, or building something entirely new, you’re invited to learn and build with us. Let’s keep this important public data alive together!
 
 ### About CHR&R
 
@@ -19,3 +19,9 @@ CHR&R was committed to creating resources and tools that support community-led e
 The CHR&R program and website will officially end in December 2026.
 
 ### Contact
+
+You can learn more about the University of Wisconsin Population Health Institute by visiting our website: <https://uwphi.pophealth.wisc.edu/>
+
+For nontechnical questions, please contact us at: [uwphi\@med.wisc.edu]{.underline}
+
+For technical questions, we ask that you reach out via the [Q&A section on GitHub](https://github.com/orgs/County-Health-Rankings-and-Roadmaps/discussions/categories/q-a).
