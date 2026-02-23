@@ -13,7 +13,7 @@ Welcome to the **County Health Open-Source Project (CHOP)**, a community-driven 
 
 ## Data Availability
 
-Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings-and-roadmaps.github.io/welcome/archives.html) will include:
+Beginning in March 2026, [**The CHR&R Archives**](archives.qmd) will include:
 
 -   CHR&R datasets from 2010 through 2025
 -   A repository of code used to calculate CHR&R measures
@@ -23,10 +23,10 @@ Beginning in March 2026, [**The CHR&R Archives**](https://county-health-rankings
 
 Additional tools to be finalized throughout 2026 include:
 
--   [**County Health Snapshots**](https://county-health-rankings-and-roadmaps.github.io/welcome/snapshot.html)
+-   [**County Health Snapshots**](snapshot.qmd)
     -   A user-friendly dashboard to view and download state and county-level data produced by CHR&R
--   [**County Health Open-source Community**](https://county-health-rankings-and-roadmaps.github.io/welcome/community.html)
-    -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our [Contribution Guidelines](https://county-health-rankings-and-roadmaps.github.io/welcome/contribute.html) to learn more.
+-   [**County Health Open-source Community**](community.qmd)
+    -   A community-driven effort to extend CHR&R data into 2027 and beyond. See our [Contribution Guidelines](contribute.qmd) to learn more.
 
 ------------------------------------------------------------------------
 
