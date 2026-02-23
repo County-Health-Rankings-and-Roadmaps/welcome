@@ -20,4 +20,4 @@ CHR&R resources will not be available on countyhealthrankings.org after December
 
 [**Publications and White Papers**:](https://www.countyhealthrankings.org/findings-and-insights/scholarly-publications) <!--# links to CHRR website for now but later will link to a NCBI (or other) collection --> Past technical reports and methods papers describing the CHR&R model, measures, and methods.
 
--   Check out our [Technical Documentation](files/CHRR Technical Documentation 2025_2.pdf)
+-   Check out our [Technical Documentation](files/CHRRTechnicalDocumentation2025.pdf)
